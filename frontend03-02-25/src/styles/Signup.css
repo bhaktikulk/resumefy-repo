@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f9fafc;
+  background-color: #ffffff;
   padding: 28px;
   min-height: 100vh; /* For full-screen height on mobile */
 }
@@ -31,7 +31,7 @@
 }
 
 .input-error {
-  border: 1px solid red !important; 
+  border: 1px solid red !important;
 }
 
 /* Form Elements */

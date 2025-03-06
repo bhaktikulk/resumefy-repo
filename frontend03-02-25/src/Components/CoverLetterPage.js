@@ -3,80 +3,80 @@ import { useNavigate } from "react-router-dom";
 import "../styles/CoverLetterPage.css";
 const templates = [
   {
-    id: 51,
-    title: "Template 51",
+    id: 1,
+    title: "Template 1",
     image:
       "https://res.cloudinary.com/dtyxaxtfv/image/upload/v1740981820/CoverLetterTemplates/mckbn8kwnrhjfiw5fto6.jpg",
     withPhoto: false,
     columns: 2,
   },
   {
-    id: 52,
-    title: "Template 52",
+    id: 2,
+    title: "Template 2",
     image:
       "https://res.cloudinary.com/dtyxaxtfv/image/upload/v1740982289/CoverLetterTemplates/hyacdctykfipfrnremr1.jpg",
     withPhoto: false,
     columns: 2,
   },
   {
-    id: 53,
-    title: "Template 53",
+    id: 3,
+    title: "Template 3",
     image:
       "https://res.cloudinary.com/dtyxaxtfv/image/upload/v1740982531/CoverLetterTemplates/xtvbw9jj5cbwahvowkee.jpg",
     withPhoto: false,
     columns: 2,
   },
   {
-    id: 54,
-    title: "Template 54",
+    id: 4,
+    title: "Template 4",
     image:
       "https://res.cloudinary.com/dcbtvmkmb/image/upload/v1740981858/Cv-template/b86p6yljau6nkzjddnve.jpg",
     withPhoto: false,
     columns: 2,
   },
   {
-    id: 55,
-    title: "Template 55",
+    id: 5,
+    title: "Template 5",
     image:
       "https://res.cloudinary.com/dcbtvmkmb/image/upload/v1740981858/Cv-template/phw3grqj8sqgeeafsotu.jpg",
     withPhoto: false,
     columns: 2,
   },
   {
-    id: 56,
-    title: "Template 56",
+    id: 6,
+    title: "Template 6",
     image:
       "https://res.cloudinary.com/dcbtvmkmb/image/upload/v1740981858/Cv-template/vun98kbkrq3vxx1ldnge.jpg",
     withPhoto: false,
     columns: 2,
   },
   {
-    id: 57,
-    title: "Template 57",
+    id: 7,
+    title: "Template 7",
     image:
       "https://res.cloudinary.com/dtyxaxtfv/image/upload/v1740982885/CoverLetterTemplates/tkgthhzujo5mfcp4zka5.jpg",
     withPhoto: false,
     columns: 2,
   },
   {
-    id: 58,
-    title: "Template 58",
+    id: 8,
+    title: "Template 8",
     image:
       "https://res.cloudinary.com/dtyxaxtfv/image/upload/v1740998806/CoverLetterTemplates/yqmsapohs5fqxqbr4sgc.jpg",
     withPhoto: false,
     columns: 2,
   },
   {
-    id: 59,
-    title: "Template 59",
+    id: 9,
+    title: "Template 9",
     image:
       "https://res.cloudinary.com/dcbtvmkmb/image/upload/v1741084288/Cv-template/yhvtenv3q6vpdpommgsa.jpg",
     withPhoto: false,
     columns: 2,
   },
   {
-    id: 60,
-    title: "Template 60",
+    id: 10,
+    title: "Template 10",
     image:
       "https://res.cloudinary.com/dcbtvmkmb/image/upload/v1741084288/Cv-template/w1httn1q9wkazrljwfyw.jpg",
     withPhoto: false,

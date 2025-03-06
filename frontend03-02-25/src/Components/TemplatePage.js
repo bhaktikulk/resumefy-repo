@@ -6,7 +6,7 @@ const templates = [
     id: 1,
     title: "Template 1",
     image:
-      "https://cdn.enhancv.com/predefined-examples/DuL0GzrjhjZHr0mwbwgPitMJ3Z20hVmYHQciz6rm/image.png",
+      "https://res.cloudinary.com/dtyxaxtfv/image/upload/v1741264589/ResumeTemplates/u9etsrqcjvgi17yrqqjy.jpg",
     withPhoto: true,
     columns: 1,
   },
@@ -14,7 +14,7 @@ const templates = [
     id: 2,
     title: "Template 2",
     image:
-      "https://www.myperfectresume.com/wp-content/uploads/2024/03/aeronautical-engineer-resume-format.svg",
+      "https://res.cloudinary.com/dtyxaxtfv/image/upload/v1741264588/ResumeTemplates/qovhdpk16obgqu7urkhw.jpg",
     withPhoto: false,
     columns: 2,
   },
@@ -22,7 +22,7 @@ const templates = [
     id: 3,
     title: "Template 3",
     image:
-      "https://cdn-images.zety.com/pages/resume_formats_template_nanica.png",
+      "https://res.cloudinary.com/dtyxaxtfv/image/upload/v1741264590/ResumeTemplates/lizset11gbbhdvhdc4ky.jpg",
     withPhoto: true,
     columns: 2,
   },
@@ -30,7 +30,7 @@ const templates = [
     id: 4,
     title: "Template 4",
     image:
-      "https://images.squarespace-cdn.com/content/v1/5a0a3c9a8fd4d276810a8a9e/1698864127374-OJCFKLMY3BXCXFUO8WK6/Resume-Template-10-pdf.png",
+      "https://res.cloudinary.com/dtyxaxtfv/image/upload/v1741264594/ResumeTemplates/akarth6mukgjfrgd0qus.jpg",
     withPhoto: false,
     columns: 1,
   },
@@ -38,7 +38,7 @@ const templates = [
     id: 5,
     title: "Template 5",
     image:
-      "https://www.hubspot.com/hs-fs/hubfs/resume-templates-word_24.webp?width=415&height=536&name=resume-templates-word_24.webp",
+      "https://res.cloudinary.com/dtyxaxtfv/image/upload/v1741264593/ResumeTemplates/fy2ewp1df6fog6qcjytj.jpg",
     withPhoto: true,
     columns: 1,
   },
@@ -46,7 +46,7 @@ const templates = [
     id: 6,
     title: "Template 6",
     image:
-      "https://cdn.enhancv.com/predefined-examples/DuL0GzrjhjZHr0mwbwgPitMJ3Z20hVmYHQciz6rm/image.png",
+      "https://res.cloudinary.com/dtyxaxtfv/image/upload/v1741264599/ResumeTemplates/img7hr4gdylp7gug7w8t.jpg",
     withPhoto: false,
     columns: 2,
   },
@@ -54,7 +54,7 @@ const templates = [
     id: 7,
     title: "Template 7",
     image:
-      "https://resumekraft.com/wp-content/uploads/2021/03/Application-Specialist-Resume.jpg",
+      "https://res.cloudinary.com/dtyxaxtfv/image/upload/v1741266223/ResumeTemplates/daujgamfbae3xdgz1rps.jpg",
     withPhoto: false,
     columns: 2,
   },
@@ -62,7 +62,7 @@ const templates = [
     id: 8,
     title: "Template 8",
     image:
-      "https://res.cloudinary.com/dajopw7zz/image/upload/v1738127771/NextStepCv/yjonyxqykpzdy3xqhuh9.png",
+      "https://res.cloudinary.com/dtyxaxtfv/image/upload/v1741266223/ResumeTemplates/tm7lhxl10cfbbg1bepwo.jpg",
     withPhoto: false,
     columns: 2,
   },
@@ -70,7 +70,7 @@ const templates = [
     id: 9,
     title: "Template 9",
     image:
-      "https://res.cloudinary.com/dajopw7zz/image/upload/v1738128263/NextStepCv/nv8fxy3jptakvhdlprhx.png",
+      "https://res.cloudinary.com/dtyxaxtfv/image/upload/v1741266649/ResumeTemplates/ndqfvlijqo22ltdi5pov.jpg",
     withPhoto: false,
     columns: 1,
   },

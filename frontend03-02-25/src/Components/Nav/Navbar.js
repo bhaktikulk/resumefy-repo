@@ -106,7 +106,7 @@ const Navbar = () => {
           </span>
           {isDropdownOpen("cover-letter") && (
             <div className="dropdown-menu">
-              <Link to="/cover-letter-templates">Build Cover Letter</Link>
+              {/* <Link to="/cover-letter-templates">Build Cover Letter</Link> */}
               <Link to="/cover-letter">Cover Letter Format</Link>
               <Link to="/how-to-cover-letter">How to Write a Cover Letter</Link>
               <Link to="/cover-letter-help">Cover Letter Help</Link>
