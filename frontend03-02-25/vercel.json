@@ -1,4 +1,4 @@
 {
-  "ogTitle": "Resumefy",
-  "ogDescription": "Web site created using react-app"
+  "og:title": "Resumefy",
+  "og:description": "Web site created using react-app"
 }
