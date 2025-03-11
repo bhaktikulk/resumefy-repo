@@ -107,7 +107,7 @@
 /* Keyframe for Left-Side Moving Animation */
 @keyframes slidein {
   0% {
-    transform: translateX(5%); /* Start from the right */
+    transform: translateX(100%); /* Start from the right */
   }
   100% {
     transform: translateX(-100%); /* End at the left side */
@@ -130,12 +130,12 @@ img {
 }
 
 /* Ensure responsiveness */
-@media (max-width: 80px) {
+@media (max-width: 768px) {
   .slider_row {
     animation: slidein 40s linear infinite; /* Slower animation on smaller screens */
   }
 
   .fab {
-    width: calc(1% / 4); /* Adjust image width for smaller screens */
+    width: calc(100% / 4); /* Adjust image width for smaller screens */
   }
 }
