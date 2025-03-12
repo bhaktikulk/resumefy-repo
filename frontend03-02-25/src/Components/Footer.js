@@ -1,11 +1,21 @@
 import React from 'react';
 import '../styles/Footer.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import resumefyLogo from '../Components/Nav/resumefy-logo.png'; // Update the path as needed
 
 const Footer = () => (
   <footer className="footer">
     <div className="container">
       <div className="footer-row">
+        
+        {/* Resumefy Section */}
+        <div className="footer-col footer-resumefy">
+          <img src={resumefyLogo} alt="Resumefy Logo" />
+          <p>Create professional resumes and CVs with ease using Resumefy.</p>
+          <a href="/login" className="create-resume-btn">Create My Resume</a>
+        </div>
+
+        {/* Company Section */}
         <div className="footer-col">
           <h4>Company</h4>
           <ul>
@@ -15,6 +25,8 @@ const Footer = () => (
             <li><a href="#">Affiliate Program</a></li>
           </ul>
         </div>
+
+        {/* Get Help Section */}
         <div className="footer-col">
           <h4>Get Help</h4>
           <ul>
@@ -25,6 +37,8 @@ const Footer = () => (
             <li><a href="#">Payment Options</a></li>
           </ul>
         </div>
+
+        {/* Resume & CV Section */}
         <div className="footer-col">
           <h4>Resume & CV</h4>
           <ul>
@@ -36,19 +50,20 @@ const Footer = () => (
             <li><a href="#">CV Templates</a></li>
           </ul>
         </div>
-        <div className="footer-col">
-          <h4>Follow Us</h4>
-          <div className="social-links">
-            <a href="#"><i className="fab fa-facebook-f"></i></a>
-            <a href="#"><i className="fab fa-twitter"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
-            <a href="#"><i className="fab fa-linkedin-in"></i></a>
-          </div>
+
+      </div>
+
+      {/* Footer Bottom */}
+      <div className="footer-bottom">
+        <p className="copyright">&copy; 2025 Numetry Technologies. All rights reserved.</p>
+        <div className="social-icons">
+          <a href="#"><i className="fab fa-facebook-f"></i></a>
+          <a href="#"><i className="fab fa-twitter"></i></a>
+          <a href="#"><i className="fab fa-instagram"></i></a>
+          <a href="#"><i className="fab fa-linkedin-in"></i></a>
         </div>
       </div>
-      <div className="footer-bottom">
-        <p>&copy; 2025 YourCompany. All rights reserved.</p>
-      </div>
+
     </div>
   </footer>
 );
