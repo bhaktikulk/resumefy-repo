@@ -130,7 +130,7 @@ img {
 }
 
 /* Ensure responsiveness */
-@media (max-width: 80px) {
+@media (max-width: 50px) {
   .slider_row {
     animation: slidein 40s linear infinite; /* Slower animation on smaller screens */
   }
