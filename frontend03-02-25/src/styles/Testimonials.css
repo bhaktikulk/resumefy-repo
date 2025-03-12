@@ -136,6 +136,6 @@ img {
   }
 
   .fab {
-    width: calc(1% / 4); /* Adjust image width for smaller screens */
+    width: calc(2% / 4); /* Adjust image width for smaller screens */
   }
 }
