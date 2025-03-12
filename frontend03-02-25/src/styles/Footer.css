@@ -1,14 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
-body {
-  font-family: 'Poppins', sans-serif;
-  line-height: 1.5;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* Footer Styling */
+.footer {
+  background: linear-gradient(135deg, #07142b, #0b1a3c);
+  padding: 60px 0;
+  color: #ffffff;
 }
 
 .container {
@@ -16,13 +10,7 @@ body {
   margin: auto;
 }
 
-.footer {
-  background: linear-gradient(135deg, #07142b, #0b1a3c);
-  padding: 60px 0;
-  color: #ffffff;
-  text-align: center;
-}
-
+/* Footer Sections */
 .footer-row {
   display: flex;
   justify-content: space-between;
@@ -31,8 +19,9 @@ body {
   margin-bottom: 30px;
 }
 
+/* Footer Column */
 .footer-col {
-  width: 23%;
+  width: 20%;
   padding: 0 15px;
   text-align: left;
 }
@@ -42,7 +31,6 @@ body {
   text-transform: uppercase;
   margin-bottom: 20px;
   font-weight: 600;
-  position: relative;
   color: #f8f9fa;
 }
 
@@ -69,7 +57,6 @@ body {
   color: #bbbbbb;
   text-decoration: none;
   transition: 0.3s ease-in-out;
-  display: block;
 }
 
 .footer-col ul li a:hover {
@@ -77,44 +64,79 @@ body {
   transform: translateX(5px);
 }
 
-.social-links {
-  margin-top: 10px;
+/* Resumefy Section */
+.footer-resumefy {
+  text-align: left;
 }
 
-.social-links a {
+.footer-resumefy img {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.footer-resumefy p {
+  font-size: 16px;
+  color: #bbbbbb;
+  margin-bottom: 15px;
+}
+
+.create-resume-btn {
   display: inline-block;
-  height: 45px;
-  width: 45px;
-  background: rgba(255, 255, 255, 0.2);
-  margin: 0 10px 10px 0;
-  text-align: center;
-  line-height: 45px;
-  border-radius: 50%;
+  padding: 10px 20px;
+  background: #e91e63;
   color: #ffffff;
-  font-size: 20px;
-  transition: 0.4s ease-in-out;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
 }
 
-.social-links a:hover {
-  background: #ffffff;
-  color: #07142b;
-  transform: scale(1.1);
+.create-resume-btn:hover {
+  background: #c2185b;
 }
 
+/* Footer Bottom */
 .footer-bottom {
   margin-top: 30px;
   padding-top: 15px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   font-size: 14px;
   color: #cccccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Social Media Icons */
+.social-icons {
+  display: flex;
+  gap: 5px;
+}
+
+.social-icons a {
+  font-size: 20px;
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+/* Removed Circle Background */
+.social-icons a i {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+.social-icons a:hover {
+  color: #e91e63;
+  transform: scale(1.2);
 }
 
 /* Responsive Design */
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .footer-row {
     flex-direction: column;
-    align-items: center;
     text-align: center;
   }
 
@@ -122,10 +144,17 @@ body {
     width: 100%;
     margin-bottom: 20px;
   }
-}
 
-@media (max-width: 574px) {
-  .footer-col {
-    width: 100%;
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .copyright {
+    margin-bottom: 10px;
+  }
+
+  .social-icons {
+    justify-content: center;
   }
 }
