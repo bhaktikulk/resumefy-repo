@@ -130,12 +130,12 @@ img {
 }
 
 /* Ensure responsiveness */
-@media (max-width: 50px) {
+@media (max-width: 40px) {
   .slider_row {
     animation: slidein 40s linear infinite; /* Slower animation on smaller screens */
   }
 
   .fab {
-    width: calc(2% / 4); /* Adjust image width for smaller screens */
+    width: calc(1% / 4); /* Adjust image width for smaller screens */
   }
 }
