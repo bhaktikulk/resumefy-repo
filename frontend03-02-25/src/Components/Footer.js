@@ -22,7 +22,7 @@ const Footer = () => (
             <li><a href="#">About Us</a></li>
             <li><a href="#">Our Services</a></li>
             <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Affiliate Program</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
           </ul>
         </div>
 
@@ -31,8 +31,8 @@ const Footer = () => (
           <h4>Get Help</h4>
           <ul>
             <li><a href="#">FAQ</a></li>
-            <li><a href="#">Shipping</a></li>
-            <li><a href="#">Returns</a></li>
+            <li><a href="#">Shipping Guidelines </a></li>
+            <li><a href="#">Return & Refund Policy</a></li>
             <li><a href="#">Order Status</a></li>
             <li><a href="#">Payment Options</a></li>
           </ul>
