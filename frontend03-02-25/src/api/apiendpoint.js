@@ -1,12 +1,12 @@
 import axios from "axios";
 
 // Base URL for API calls
-export const url = process.env.REACT_APP_API_URL || "http://localhost:5000";
+export const url = "http://localhost:5000";
 
 // Create axios instance with base configuration
 const api = axios.create({
   baseURL: url,
-  withCredentials: true,
+  withCredentials: true, // Ensure credentials are included
   headers: {
     "Content-Type": "application/json",
   },
@@ -21,18 +21,14 @@ api.interceptors.request.use(
     }
     return config;
   },
-  (error) => {
-    return Promise.reject(error);
-  }
+  (error) => Promise.reject(error)
 );
 
 // Response interceptor for error handling
 api.interceptors.response.use(
   (response) => response,
   (error) => {
-    // Handle 401 (Unauthorized) errors
     if (error.response && error.response.status === 401) {
-      // Remove token and redirect to login
       localStorage.removeItem("authToken");
       window.location.href = "/login";
     }
