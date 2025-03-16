@@ -424,7 +424,8 @@ const TemplatePage = () => {
           )}
         </div>
 
-        <div className="action-buttons">
+        {/* Floating Action Buttons */}
+        <div className="floating-action-buttons">
           <button className="choose-later">Choose Later</button>
           <button className="choose-template" onClick={handleChooseTemplate}>
             Choose Template

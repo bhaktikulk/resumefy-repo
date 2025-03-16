@@ -220,3 +220,39 @@ body {
     align-items: center;
   }
 }
+
+.floating-action-buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 64%;
+  transform: translateX(-50%);
+  background: #0f0f0f;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 10px;
+  border-radius: 30px;
+  display: flex;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.floating-action-buttons button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.choose-later {
+  background-color: #ccc;
+  color: black;
+}
+
+.choose-template {
+  background-color: #007bff;
+  color: white;
+}
+
+.choose-template:hover {
+  background-color: #0056b3;
+}
