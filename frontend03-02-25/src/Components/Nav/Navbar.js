@@ -43,7 +43,7 @@ const Navbar = () => {
           <span>Home</span>
         </Link>
         {/* Tools Dropdown */}
-        <div
+        {/* <div
           className="navbar-item"
           onMouseEnter={() => showDropdown("tools")}
           onMouseLeave={hideDropdown}
@@ -71,7 +71,7 @@ const Navbar = () => {
               <a href="#cv-maker">CV Maker</a>
             </div>
           )}
-        </div>
+        </div> */}
 
         {/* Resume and CV Dropdown */}
         <div
@@ -80,7 +80,7 @@ const Navbar = () => {
           onMouseLeave={hideDropdown}
         >
           <span>
-            <a href="#resume-cv">Resume and CV</a>
+            <a href="#resume-cv">Resume</a>
             <span
               className={`dropdown-icon ${
                 isDropdownOpen("resume-cv") ? "open" : ""
