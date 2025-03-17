@@ -10,7 +10,7 @@ const Footer = () => (
         
         {/* Resumefy Section */}
         <div className="footer-col footer-resumefy">
-          <img src={resumefyLogo} alt="Resumefy Logo" />
+          <img src={resumefyLogo} alt="Resumefy Logo" /> 
           <p>Create professional resumes and CVs with ease using Resumefy.</p>
           <a href="/login" className="create-resume-btn">Create My Resume</a>
         </div>
@@ -19,10 +19,10 @@ const Footer = () => (
         <div className="footer-col">
           <h4>Company</h4>
           <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Our Services</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="/aboutus">About Us</a></li>
+            <li><a href="/services">Our Services</a></li>
+            <li><a href="/privacypolicy">Privacy Policy</a></li>
+            <li><a href="/terms-and-conditions">Terms and Conditions</a></li>
           </ul>
         </div>
 
@@ -30,9 +30,9 @@ const Footer = () => (
         <div className="footer-col">
           <h4>Get Help</h4>
           <ul>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Shipping Guidelines </a></li>
-            <li><a href="#">Return & Refund Policy</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/shippingguidelines">Shipping Guidelines </a></li>
+            <li><a href="/refundpolicy">Return & Refund Policy</a></li>
             <li><a href="#">Order Status</a></li>
             <li><a href="#">Payment Options</a></li>
           </ul>
@@ -42,12 +42,12 @@ const Footer = () => (
         <div className="footer-col">
           <h4>Resume & CV</h4>
           <ul>
-            <li><a href="#">Resume Builder</a></li>
-            <li><a href="#">Resume Templates</a></li>
-            <li><a href="#">Resume Examples</a></li>
-            <li><a href="#">Resume Format</a></li>
-            <li><a href="#">CV Builder</a></li>
-            <li><a href="#">CV Templates</a></li>
+            <li><a href="/login">Resume Builder</a></li>
+            <li><a href="/login">Resume Templates</a></li>
+            <li><a href="/login">Resume Examples</a></li>
+            <li><a href="/login">Resume Format</a></li>
+            <li><a href="/login">CV Builder</a></li>
+            <li><a href="/login">CV Templates</a></li>
           </ul>
         </div>
 
