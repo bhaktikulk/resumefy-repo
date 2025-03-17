@@ -191,7 +191,7 @@ const Navbar = () => {
                   alt="services"
                   className="dropdown-icon-img"
                 />
-                Learn more about NextStepCV and our services.
+                Learn more about Resumefy and our services.
               </Link>
               <Link to="/payment">
                 <img
