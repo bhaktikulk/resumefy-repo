@@ -20,7 +20,13 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import CoverLetter from "./Components/CoverLetter/CoverLetter";
 // import BodyCv from "./Components/CoverLetter/BodyCv/BodyCv";
-
+import TermsAndConditions from "./Components/FooterContent/TermsAndConditions"; 
+import PrivacyPolicy from "./Components/FooterContent/PrivacyPolicy"; 
+import AboutUs from "./Components/FooterContent/AboutUs"; 
+import Services from "./Components/FooterContent/Services"; 
+import FAQ from "./Components/FooterContent/FAQ"; 
+import ShippingGuidelines from "./Components/FooterContent/ShippingGuidelines"; 
+import RefundPolicy from "./Components/FooterContent/RefundPolicy"; 
 function App() {
   return (
     <Router>
@@ -42,6 +48,13 @@ function App() {
           {/* <Route path="/resume-cv" element={<BodyCv />} /> */}
           <Route path="/template" element={<TemplatePage />} />
           <Route path="/coverLetterPage" element={<CoverLetterPage />} />
+          <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+          <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/shippingguidelines" element={<ShippingGuidelines />} />
+          <Route path="/refundpolicy" element={<RefundPolicy />} />
         </Routes>
       </div>
     </Router>
